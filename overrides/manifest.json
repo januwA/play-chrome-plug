@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "chrome扩展\"覆盖\"",
+  "version": "0.01",
+  "chrome_url_overrides": {
+    "newtab": "myPage.html"
+  },
+  "browser_action": {
+    "default_icon": "images/ct.png",
+    "default_title": "Google Mail"
+  }
+}
